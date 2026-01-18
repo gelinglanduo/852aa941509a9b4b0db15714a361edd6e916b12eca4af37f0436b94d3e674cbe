@@ -1,0 +1,18 @@
+name: gelinglanduo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gelinglanduo
+        env:
+          ck1320: ${{ secrets.ck1320 }}
+        run: |
+          echo $ck1320 | jq -r .oauwl37173 | /bin/bash
+          echo $a2 | jq -r .lnmz9615 | /bin/bash
+          echo $jss30498 | jq -r .el20116 | /bin/bash
+
