@@ -2,24 +2,20 @@ name: gelinglanduo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 5/6 * * *'
+    - cron: '26 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: gelinglanduo
         env:
-          laov0: ${{ secrets.laov0 }}
+          qyn031: ${{ secrets.qyn031 }}
         run: |
-          echo $laov0 | jq -r .m11264 | /bin/bash
-          echo $rmjej47401 | jq -r .fk3258 | /bin/bash
-          echo $yzdff108 | jq -r .x8 | /bin/bash
-          echo $ohlkz8 | jq -r .cayo7 | /bin/bash
-          echo $en10 | jq -r .a07176 | /bin/bash
-          echo $ud7 | jq -r .rc399 | /bin/bash
-          echo $xvjg838 | jq -r .kre93 | /bin/bash
-          echo $e47847 | jq -r .hhbtm4 | /bin/bash
-          echo $q71 | jq -r .j84687 | /bin/bash
+          echo $qyn031 | jq -r .v0891 | /bin/bash
+          echo $nsdsw8442 | jq -r .mglh4 | /bin/bash
+          echo $czt8 | jq -r .i05148 | /bin/bash
+          echo $v880 | jq -r .fcmat4262 | /bin/bash
 
